@@ -1,56 +1,100 @@
 {
   "expo": {
+
     "name": "ai-notes-app",
+
     "slug": "ai-notes-app",
+
     "version": "1.0.0",
+
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+
+    "icon": "./assets/splash.png",
+
     "scheme": "ainotesapp",
+
     "userInterfaceStyle": "automatic",
+
     "newArchEnabled": true,
+
     "splash": {
+
       "image": "./assets/splash.png",
+
       "resizeMode": "cover",
+
       "backgroundColor": "#0f172a"
     },
+
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
+
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+
+        "foregroundImage":
+          "./assets/splash.png",
+
+        "backgroundColor":
+          "#0f172a"
       },
+
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+
+      "predictiveBackGestureEnabled": false,
+
+      "package": "com.novanotes.ai"
     },
+
     "web": {
+
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+
+      "favicon":
+        "./assets/splash.png"
     },
+
     "plugins": [
+
       "expo-router",
+
       [
         "expo-splash-screen",
+
         {
-          "image": "./assets/splash.png",
+
+          "image":
+            "./assets/splash.png",
+
           "imageWidth": 200,
+
           "resizeMode": "cover",
-          "backgroundColor": "#0f172a"
+
+          "backgroundColor":
+            "#0f172a"
         }
       ],
+
       "expo-web-browser"
     ],
+
     "experiments": {
+
       "typedRoutes": true,
+
       "reactCompiler": true
     },
+
     "extra": {
+
       "router": {},
+
       "eas": {
-        "projectId": "853a493a-e2fc-4892-8ca6-5d83fb7e09da"
+
+        "projectId":
+          "853a493a-e2fc-4892-8ca6-5d83fb7e09da"
       }
     }
   }

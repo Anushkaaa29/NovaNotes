@@ -12,19 +12,12 @@ import { useState } from "react";
 import { router } from "expo-router";
 
 import {
-  getAuth,
   signInWithEmailAndPassword,
-  GoogleAuthProvider,
-  signInWithPopup,
 } from "firebase/auth";
 
-import app from "../firebase/config";
-
 import {
-  Ionicons,
-} from "@expo/vector-icons";
-
-const auth = getAuth(app);
+  auth,
+} from "../firebase/config";
 
 export default function LoginScreen() {
 
@@ -76,37 +69,6 @@ export default function LoginScreen() {
     }
   };
 
-  const handleGoogleLogin =
-    async () => {
-
-    try {
-
-      const provider =
-        new GoogleAuthProvider();
-
-      await signInWithPopup(
-        auth,
-        provider
-      );
-
-      Alert.alert(
-        "Success 🚀",
-        "Google Login Successful"
-      );
-
-      router.replace(
-        "/(tabs)/home"
-      );
-
-    } catch (error: any) {
-
-      Alert.alert(
-        "Google Login Error",
-        error.message
-      );
-    }
-  };
-
   return (
 
     <View style={styles.container}>
@@ -143,23 +105,6 @@ export default function LoginScreen() {
 
         <Text style={styles.buttonText}>
           Login
-        </Text>
-
-      </TouchableOpacity>
-
-      <TouchableOpacity
-        style={styles.googleButton}
-        onPress={handleGoogleLogin}
-      >
-
-        <Ionicons
-          name="logo-google"
-          size={22}
-          color="#0f172a"
-        />
-
-        <Text style={styles.googleText}>
-          Continue with Google
         </Text>
 
       </TouchableOpacity>
@@ -232,25 +177,6 @@ const styles =
   buttonText: {
     color: "white",
     fontSize: 18,
-    fontWeight: "bold",
-  },
-
-  googleButton: {
-    backgroundColor:
-      "white",
-    padding: 18,
-    borderRadius: 14,
-    alignItems: "center",
-    justifyContent:
-      "center",
-    flexDirection: "row",
-    gap: 10,
-    marginBottom: 25,
-  },
-
-  googleText: {
-    color: "#0f172a",
-    fontSize: 17,
     fontWeight: "bold",
   },
 
