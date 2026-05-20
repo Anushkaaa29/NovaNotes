@@ -1,50 +1,114 @@
-# Welcome to your Expo app 👋
+# 🚀 NovaNotes AI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+NovaNotes AI is a smart AI-powered mobile application developed using **React Native**, **Expo**, and **Firebase**. The app helps users upload notes, generate AI-style summaries, attempt quizzes, and manage learning history through a modern and responsive interface.
 
-## Get started
+---
 
-1. Install dependencies
+# ✨ Features
 
-   ```bash
-   npm install
-   ```
+## 🔐 Authentication
+- Email Login & Signup
+- Firebase Authentication
+- User Session Management
 
-2. Start the app
+## 🧠 AI Summary Generator
+- Generate smart summaries from notes
+- Dynamic AI-style responses
+- Fast summary generation
 
-   ```bash
-   npx expo start
-   ```
+## 📝 Notes Upload
+- Upload notes
+- Smart notes processing
+- Responsive UI
 
-In the output, you'll find options to open the app in a
+## ❓ Quiz Module
+- Multiple-choice quizzes
+- Score calculation
+- Instant result display
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📂 History Section
+- Stores generated summaries
+- Firestore integration
+- User-based history tracking
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 👤 User Profile
+- User information section
+- Profile dashboard
+- Clean UI design
 
-## Get a fresh project
+## 🎨 Modern UI/UX
+- Dark theme
+- Drawer navigation
+- Responsive layouts
+- Smooth user experience
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+# 🛠️ Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Frontend
+- React Native
+- Expo
+- TypeScript
+- Expo Router
 
-## Learn more
+## Backend & Database
+- Firebase Authentication
+- Firebase Firestore
 
-To learn more about developing your project with Expo, look at the following resources:
+## Styling
+- React Native StyleSheet
+- Expo Vector Icons
+- Expo Linear Gradient
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+# 📱 Screens
 
-Join our community of developers creating universal apps.
+- Splash Screen
+- Login Screen
+- Signup Screen
+- Home Screen
+- Upload Notes Screen
+- Quiz Screen
+- History Screen
+- Profile Screen
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+# 🔥 Firebase Features Used
+
+- Authentication
+- Firestore Database
+- User Session Handling
+
+---
+
+
+# 📥 Download APK
+
+[Download APK](https://expo.dev/accounts/anushka_p/projects/ai-notes-app/builds/239771b8-2eee-45f0-a973-de7d6460aa7a)
+
+---
+
+# 🚀 Future Improvements
+
+- Real AI backend integration
+- Voice Notes
+- OCR Scanner
+- AI Flashcards
+- Cloud Sync
+- Export Notes as PDF
+- Google Authentication for Native Mobile
+
+---
+
+# 👨‍💻 Developer
+
+Developed by **Anushka** 🚀
+
+---
+
+# 📄 Project Description
+
+NovaNotes AI is a smart AI-powered mobile learning application that enables users to upload notes, generate AI-style summaries, attempt quizzes, and manage learning history using React Native, Expo, Firebase, and intelligent content-processing logic.
